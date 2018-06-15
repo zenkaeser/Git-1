@@ -8,7 +8,7 @@ Tutorial for HackYourFuture Git basics :octocat:. This tutorial has three sectio
 ## 1.1 What is Git, Etymology and a short history.
 * [ ] Version Control (aka Revision control, source control)
 * [ ] Distributed version control system, Linus Torvalds, 2005
-* [ ] GIT: Global Information Tracker or the stupid content tracker or unpleasant person in British slang
+* [ ] GIT: Global Information Tracker
 
 ## 1.2 Installing Git
  For Windows,
