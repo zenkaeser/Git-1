@@ -4,9 +4,9 @@ What is version control: https://www.atlassian.com/git/tutorials/what-is-version
 
 What is git: https://www.atlassian.com/git/tutorials/what-is-git (6 min)
 
-And we'll be roughly following the materials here: https://github.com/HackYourFuture-CPH/Git (Lectures 1,2,3)
+And we'll be roughly following the materials here:  https://github.com/HackYourFuture-CPH/Git/blob/git-improvements/week1/review.md
 
-Dear students, as a preparation for Sunday's class, it would be great if you'd do the following before the class:
+As a preparation for Sunday's class, it would be great if you'd do the following before the class:
  1. create an account on github (github.com)
  2. install git
     - for mac users, running `brew install git` on the command line should work;
