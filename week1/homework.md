@@ -12,15 +12,15 @@ The idea of this homework is to fork the [homework repository](https://github.co
 
 
 Commands that  you will need:
-`git clone <repository_link>` - clone a github repository
-`git add <file_name>` - tell git to start tracking a file and to update what will be commited
-`git commit -m "commit_message"` - commit your changes
-`git push origin master` - push your changes into your github repository into the branch master.
+ - `git clone <repository_link>` - clone a github repository
+ - `git add <file_name>` - tell git to start tracking a file and to update what will be commited
+ - `git commit -m "commit_message"` - commit your changes
+ - `git push origin master` - push your changes into your github repository into the branch master.
 
 Useful git commands:
- `git status`
- `git log`
- `git log --oneline`
+  - `git status`
+  - `git log`
+  - `git log --oneline`
 
 
 
@@ -46,17 +46,17 @@ In this part you will create your own local repository, use branches to make cha
 
 
 Git commands that you will need:
-`git init` - create a new repository
-`git add <file_name>` - tell git to start tracking a file and to update what will be commited
-`git commit -m "commit_message"` - commit your changes
-`git branch <branch_name>` - create a new branch
-`git checkout <branch_name>` - go to branch `branch_name`
-`git branch - check which branches you have and where you are
-`git push origin master` - push your local changes into the master branch of your github repository
+ - `git init` - create a new repository
+ - `git add <file_name>` - tell git to start tracking a file and to update what will be commited
+ - `git commit -m "commit_message"` - commit your changes
+ - `git branch <branch_name>` - create a new branch
+ - `git checkout <branch_name>` - go to branch `branch_name`
+ - `git branch` - check which branches you have and where you are
+ - `git push origin master` - push your local changes into the master branch of your github repository
 
 Command line commands that might be useful:
-`cd <folder_name>` - to go inside folder_name
-`cd ..`- to go to the parent folder of your current folder
-`mkdir <folder_name>` - to create a new folder
-`ls`- list all the folder contents
-`ls .*` - list all the folder contents, also invisible folders/files (e.g. the git folder)
+ - `cd <folder_name>` - to go inside folder_name
+ - `cd ..`- to go to the parent folder of your current folder
+ - `mkdir <folder_name>` - to create a new folder
+ - `ls`- list all the folder contents
+ - `ls .*` - list all the folder contents, also invisible folders/files (e.g. the git folder)
