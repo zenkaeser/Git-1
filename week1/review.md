@@ -18,11 +18,11 @@ Marco has also made a cool video with 10 important commands, which you can see [
 
 ## 1.1 Vim
 
-During the class we also use vim, which is a command line text editor.
+During the class we also use Vim, which is a command line text editor.
 Vim has two modes: the command mode and the insert mode. To edit the file contents we  need to be in insert mode. To switch to insert mode we press `i`, and we should see `-- INSERT --` written in the bottom left corner. To save and/or exit, do searches, etc., we need to be in command mode. To switch to command mode we press `ESC`.
 To save our changes and exit we go to command mode and type `:wq`, which stands for write and quit. We should see the text in the bottom left corner. To exit vim without saving our changes, we type `:q` while in command mode.
 
-# 2. Git :
+# 2. Git
 
 ## 2.1 What is Git
 
@@ -59,7 +59,7 @@ Before creating any repository make sure you are not inside a git repository alr
 
 ### 2.3.1 add and commit
 
-The basic git workflow consists of two steps.
+The basic Git workflow consists of two steps.
 First, you add files/changes (to the Index) to be committed.
 ```
 $ git add <file_name>
@@ -92,7 +92,7 @@ Make sure that the username and email are the ones you used for the github accou
 
 ## 3.3 Creating a repository
 
-Using your GitHub account, create a repository to which you can add files. Name the repository `my_first_repo`. Create a public repository and check the box to create a README file. After you create the repository, the URL of your web page would be something like https://github.com/martamatos/my_first_repo. Replace martamatos with your username. If you append .git to this URL, you will get the name of your GitHub repository: https://github.com/martamatos/my_first_repo.git
+Using your GitHub account, create a repository to which you can add files. Name the repository `my_first_repo`. Create a public repository and check the box to create a README file. After you create the repository, the URL of your web page would be something like https://github.com/martamatos/my_first_repo. Replace `martamatos` with your username. If you append .git to this URL, you will get the name of your GitHub repository: https://github.com/martamatos/my_first_repo.git
 
 
 ## 3.4 Pushing changes
@@ -140,6 +140,8 @@ Solution:
 $ git pull origin master
 ```
 
+or
+
 ```
 fatal: refusing to merge unrelated histories
 ```
@@ -166,11 +168,10 @@ $ ssh-keygen -C "username@email.com" -t rsa
 ```
 
 Supply your Github email address instead of this fake one. 
-Accept the default location storage (default file) for the keys. When prompted for a passphrase, make up one, and don't forget it ! This is your private key, do not share it with anyone.
+Accept the default location storage (default file) for the keys. When prompted for a passphrase, make up one, and don't forget it! This is your private key, do not share it with anyone.
 You will have id\\\_*rsa and id\\\_rsa.pub files in the directory at the following path /c/Users/<your_user_name>/.ssh/
 
- You want to copy the contents of the id\_rsa.pub (open it with a simple text editor or use the command cat in the command line)
- After you copy the contents of the id\_rsa.pub file, go to the GitHub account, go to the settings find SSH and GPG keys option and add New SSH key.
+ You want to copy the contents of the id\_rsa.pub (open it with a simple text editor or use the command cat in the command line).  After you copy the contents of the id\_rsa.pub file, go to the GitHub account, go to the settings find SSH and GPG keys option and add New SSH key.
 
 
 # 4 Branches
@@ -185,6 +186,7 @@ E.g. Branches for Bugs, testing, featuers, production, staging etc.
 
 ## 4.2 What is remote ?
 
+Before diving straight into Git branches, let's just clarify what is a remote.
 If you're using Git collaboratively, you'll probably need to sync your commits with other machines or locations. In Git terminology, each machine or location is called a remote, and each one may have one or more branches. Most often, you'll just have one remote, named origin.
 
 To list all the remotes, run
@@ -249,7 +251,7 @@ To view which one of your local branches are tracking branches, run
 
 From this command's output, you can see that the local branch master is tracking the remote-tracking branch origin/master, and the local branch new-feature is not tracking anything.
 
-"Tracking local branches" are useful. They allow you to run git pull and git push, without specifying which upstream branch to use. If the branch is not set up to track another branch, you'll get an error like this one:
+"Tracking local branches" are useful. They allow you to run `git pull` and `git push` without specifying which upstream branch to use. If the branch is not set up to track another branch, you'll get an error like this one:
 
 ```
   $ git checkout new-feature
@@ -313,15 +315,15 @@ From the output, you can see all the branches that exist on the remote machine b
 
 The git checkout command lets you navigate between the branches created by git branch. Checking out a branch updates the files in the working directory to match the version stored in that branch, and it tells Git to record all new commits on that branch. Think of it as a way to select which line of development you’re working on.
 
-To check out the specified branch, which should have already been created with git branch, run:
+To checkout the specified branch, which should have already been created with git branch, run:
 
 ```
 git checkout <existing_branch>
 ```
 
-This makes <existing_branch> the current branch, and updates the working directory to match.
+This makes `<existing_branch>` the current branch, and updates the working directory to match.
 
-To create a new branch and check out <new_branch>, run
+To create a new branch and checkout <new_branch>, run
 ```
 git checkout -b <new_branch>
 ```
