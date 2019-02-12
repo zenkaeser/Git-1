@@ -1,6 +1,9 @@
-# Homework week 1
+# Homework
 
-The idea of this homework is to fork the [homework repository](https://github.com/HackYourFuture-CPH/hyf-homework) from hack your future, clone it into your computer, do some changes, and push the changes into your fork (copy) of the repository.
+The idea of this exercises is to practice what we learned during the class.
+There are two parts: in the first one we will practice the basics of git and github, while in the second part we will practice working with branches and doing pull requests.
+
+## Part 1
 
 1. Go to https://github.com/HackYourFuture-CPH/hyf-homework and fork this repository. Now you should have the `hyf-homework` repository in your own github account.
 2. Clone the `hyf-homework` repository from YOUR github account.
@@ -25,7 +28,7 @@ Useful git commands:
 
 
 
-## Optional part
+## Part 2
 In this part you will create your own local repository, use branches to make changes, solve a merge conflict, and once you merged your branches into master, you will create a repository with the same name on github and push your changes to github.
 
 1. create folder `git_homework`
