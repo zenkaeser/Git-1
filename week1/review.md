@@ -1,10 +1,15 @@
-Tutorial for HackYourFuture Git basics :octocat:. This tutorial has four sections:
+Tutorial for HackYourFuture Git basics :octocat:. This tutorial has five sections:
 
 1. Command line interface (bash)
 2. Git
 3. GitHub
 4. Git branches
 5. Others
+
+Also you can watch the following videos that summarize the class contents:
+ - [Git intro part 1](https://drive.google.com/open?id=1fubN-BDbdAAxcWxyUso7Pi-eLhWNzjdH)
+ - [Git intro part 2](https://drive.google.com/open?id=17NMQ9EuS9Fo339noRQ-LBn4qwVRhKzGC)
+ - [Git intro part 3](https://drive.google.com/open?id=1k8edrup6PEyPpuJG_6bRVXSTUlghUVSs)
 
 # 1. Command line (bash)
 
