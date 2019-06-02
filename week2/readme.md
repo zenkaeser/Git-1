@@ -1,22 +1,10 @@
-start with basic git push and branching
+The goal of this class is to learn the forking workflow, which the students will be using in the final project and in their professional lives.
 
-start with a repo with readme and a javascript file with one function
+The class is divided in the 3 main parts:
 
-me:
-- fork, add a collaborator, create a branch, add a file, push branch, do pull request
-
-students:
-part 1:
-- fork my repo
-- one adds the other as collaborator
-- each create a branch, add a file with js function, push branch, do pull request
-
-part 2:
--  each create a branch, add function at the end of the file, push branch, do pull request
-- fix conflict
-
-talk about:
-- git stash
-- git diff
-- git checkout
-- git rm
+1. in the first part the students must (re-)learn how to work with branches in their local repository.
+2. in the second part the students must learn:
+   - how to push local branches to remote repositories on github;
+   - how to fetch and pull remote branches to their local repository;
+   - about local tracking and non-tracking branches as well as remote tracking branches.
+3. in the third part the students must learn the forking workflow.
