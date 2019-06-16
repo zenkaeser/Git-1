@@ -19,7 +19,7 @@ Some terminology to consider:
  - `upstream/branch_name`  refers to `branch_name` in the `upstream` remote (github repository);
 
 
-Below are the homework instructions, they are not super detailed though, because I want you to think about what you are doing and not just type :)
+Below are the homework instructions, they are not super detailed though, because you should think about what you are doing and not just type :)
 
 
 1. fork this repository: `https://github.com/martamatos/git_advanced_class_homework.git`;
