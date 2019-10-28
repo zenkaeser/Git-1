@@ -37,37 +37,37 @@
     - slide 5
 
  10. What is a commit (technical side)
-    - slide 6
+     - slide 6
 
  11. Explain/show what happens after each git add and git commit
-    - slides 7-16
-    - also show a lot of git status and git log
+     - slides 7-16
+     - also show a lot of git status and git log
 
  12. Do a little exercise where the students have to create their repo, add files, and commit the changes
 
  13. Go into Github
-    - create github repo
-    - add remote
-    - push current changes
-    - show how to do first, have students do it on their own after
+     - create github repo
+     - add remote
+     - push current changes
+     - show how to do first, have students do it on their own after
 
  14. Address a conflict
-    - do a change on github
-    - change the same line locally
-    - push to github (get error)
-    - pull from github (get conflict)
-    - solve conflict
-    - push to github
-    - do at the same time with the students
+     - do a change on github
+     - change the same line locally
+     - push to github (get error)
+     - pull from github (get conflict)
+     - solve conflict
+     - push to github
+     - do at the same time with the students
 
  15. Branches  [if time allows]
-    - stick local branches
-    - do little exercise
+     - stick local branches
+     - do little exercise
 
  16. How to go back in history [if time allows]
-    - git checkout
-    - git revert
-    - git reset -> do not use please :)
-    - https://www.atlassian.com/git/tutorials/undoing-changes
-    - https://www.atlassian.com/git/tutorials/resetting-checking-out-and-reverting
+     - git checkout
+     - git revert
+     - git reset -> do not use please :)
+     - https://www.atlassian.com/git/tutorials/undoing-changes
+     - https://www.atlassian.com/git/tutorials/resetting-checking-out-and-reverting
 
