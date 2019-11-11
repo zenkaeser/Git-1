@@ -19,6 +19,7 @@ Commands to deal with branches:
  - `git merge <branch_name>` - merges the branch `<branch_name>` into your current branch.
  - `git merge <remote>/<branch_name>` - merges the remote branch `<branch_name>` into your current branch.
  - `git branch -d <brach_name>` - delete the branch `<branch_name>`.
+ - `git branch -u <remote>/<brach_name>` - make the current branch a local tracking branch for the branch <remote>/<branch_name>.
 
 
 Commands to interact with Github:
