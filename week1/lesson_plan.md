@@ -1,20 +1,20 @@
 # Lesson plan
 
- 1. Install git/git bash
+ 1. What is Git
+    - git is a version control software, widely used by software developers (and not only)
 
- 2. Configure git
-    - `git config --global user.name "name"`
-    - `git config --global user.email "email"`
-    - `git config --global core.editor "code -w"` (without `-w` the commit is aborted with empty message)
-
- 3. What is Git
-    - git is version control software, widely used by software developers (and not only)
-
- 4. What is version control
+ 2. What is version control
     - show example with google docs
     - git does the same but for all files in a given folder/repository
     - show repository for vscode as an example of a software built using Git to manage all the code
     - also git allows you to have branches and work on multiple tasks at the same time, a bit like copying folders
+
+ 3. Install git/git bash
+
+ 4. Configure git
+    - `git config --global user.name "name"`
+    - `git config --global user.email "email"`
+    - `git config --global core.editor "code -w"` (without `-w` the commit is aborted with empty message)
 
  5. Command line basics
     - `pwd`, and explain how paths work
@@ -43,31 +43,23 @@
      - slides 7-16
      - also show a lot of git status and git log
 
- 12. Do a little exercise where the students have to create their repo, add files, and commit the changes
-
- 13. Go into Github
-     - create github repo
-     - add remote
+ 12. Explain/show what happens after git push
+     - slide 17
+     
+ 13. Do a little exercise where the students:
+     - create a folder named `class_playground` under `hyf-homework/Git/week1`
+     - add some files
+     - commit the changes
      - push current changes
-     - show how to do first, have students do it on their own after
 
- 14. Address a conflict
-     - do a change on github
-     - change the same line locally
-     - push to github (get error)
-     - pull from github (get conflict)
-     - solve conflict
-     - push to github
-     - do at the same time with the students
-
- 15. Branches  [if time allows]
-     - stick local branches
-     - do little exercise
-
- 16. How to go back in history [if time allows]
-     - git checkout
-     - git revert
-     - git reset -> do not use please :)
-     - https://www.atlassian.com/git/tutorials/undoing-changes
-     - https://www.atlassian.com/git/tutorials/resetting-checking-out-and-reverting
-
+ 14. Branches
+     - go trough the homework workflow [have slides showing each step]:
+       - part 1 (show first, small exercise after):
+         - create a branch
+         - do commits
+         - push to github
+       - part 2 (show first, small exercise after):
+         - do pull request
+         - merge with master
+         - update local master
+      - if the time is short, do only one exercise combining both parts at the end (maybe wiser)
