@@ -1,35 +1,36 @@
 # Homework
 
-In this exercise you will get some practice submitting your homework by pushing it to Github and then doing a pull request. Here are the instructions:
+In this exercise you will get some practice submitting your homework by pushing it to Github and then creating a pull request. Here are the instructions:
 
 1. Start by creating a branch for your homework, named `git/week1`, and move to that branch
 2. Inside the folder `hyf-homework/git/week1` create a new file named `my_favorite_food.txt`, inside the file write your favorite food recipe, and commit your changes (you can just find a random recipe on google and paste it in the file ;) ).
 3. Again inside the folder `hyf-homework/git/week1` add a new file named `my_second_favorite_food.txt`, inside the file write the recipe for your second favorite food, and commit your changes.
 4. Inside the folder `hyf-homework/git/week1` create a third file named `countries.txt`, where you list three countries that you have visited (this doesn't need to be true, you can just write the names of three random countries), and commit your changes.
 5. Push your changes into your `hyf-homework` repository on github.
-6. **On your computer** add a fourth country name to the file `countries.txt`, and commit your changes again.
-7. **On github**, add also a fourth country name to the file `countries.txt`, and commit your changes there.
-8. Push your local changes into your `hyf-homework` repository on github (and now it will not be that easy :) ).
-9. Create a pull request from the branch `git/week1` to master
-10. When the pull request is accepted, merge it
-11. Once the pull request is merged with master, update your local master branch.
+6. Go to Github and create a pull request from the branch `git/week1` to `master`
+7. Copy the link, post it on slack and tag me, i will then check your homework and ask you to do a few more tasks :)
 
 
-Commands that you will need:
+Commands that you will need: 
  - `git branch <branch_name>` - to create a new branch named `<branch_name>`
  - `git checkout <branch_name>` - to move to a branch named `<branch_name>`
  - `git add <file_name>` - tell git to start tracking a file and to update what will be commited
  - `git commit -m "commit_message"` - commit (save) your changes
- - `git push origin <branch_name>` - push (upload) your changes in the branch named `<branch_name>` sto your github repository into the branch named `<branch_name>`.
- - `git pull origin <branch_name>` - pull (download) your changes from your github repository, in the branch named `<branch_name>`, into your local branch named `<branch_name>`
+ - `git push origin <branch_name>` - push (upload) your changes in your current branch to your github repository into the branch named `<branch_name>`.
+ 
+ 
+ ***Note***
+  For the sake of consistency (and to avoid mistakes), make sure that when you push you do it to a branch with the same name as the branch where you are, e.g. if you are on a branch named `my_homework` then push to a branch named `my_homework` by typing `git push origin my_homework`.
+  
+  When pulling, if you want to pull from a branch named, for instance `git_homework`, make sure that you are in a branch with the same name (`git_homework`) on your computer as well, and only then do `git pull origin <branch_name>`.
 
 
-Useful git commands:
-  - `git status` - this is your best friend when you are using git :)
-  - `git branch` - to check which branches exist and in which one you are (you can also see where you are when you do `git status`)
+Other useful git commands:
+ - `git status` - remember, it is your best friend, it tells you what is the state of your repository and sometimes what you should do.
+ - `git branch` - this is your second best friend, it tells you in which branch you are (you can also see where you are when you do `git status`)
   - `git log`
   - `git log --oneline`
-
+  - `git pull origin <branch_name>` - pull (download) your changes from your github repository in the branch named `<branch_name>`, into your current local branch. 
 
 Command line commands that might be useful:
  - `pwd`- print working directory, to know where you are 
