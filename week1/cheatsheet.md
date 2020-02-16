@@ -20,33 +20,41 @@ To remove a git repository but still keep your files do `rm -rf .git` in the fol
 
 We used these commands in the first part of the class to work with a local git repository on our own computers.
 
- - `git init` - start a new git repository in the folder where you are (always do `git status` before `git init` to make sure you are not inside a git repository already).
  - `git add <file_name>` - tells git to start tracking a file or to update what will be commited. Always do that before `git commit`.
  - `git commit -m "commit_message"` - commit your changes.
- - `git status` - shows you which files are ready to be commited, or not tracked by git. Often tells you what to do as well.
+ - `git push origin <branch_name>` - push (upload) your changes in your current branch to your github repository into the branch named `<branch_name>`.
+ - `git status` - shows you which files are ready to be commited, or not tracked by git. Often tells you what to do as well. It is your best friend when using git :)
  - `git log` - shows the history of commits in the current branch.
  - `git log --oneline` - shows the history of commits in the current branch in a single line per commit.
  - `git diff <file_name>` - to see the difference between the file contents now and in the latest commit.
 
- 
- Note: if you do `git add .` instead of `git add <file_name>` you will add all files in your current folder.
- 
+
+  Note: if you do `git add .` instead of `git add <file_name>` you will add all files in your current folder.
+
  
  ### Part 2
  
- We used these commands in the second part of the class to link our local git repository to a remote git repository (on Github) and work with it.
+ We used these commands in the second part of the class to create a branch, go to it, commit our changes on that branch, and then push it to Github.
 
- - `git remote add origin <github_repository_url>` - adds a link between your local repository and the github repository with the url `github_repository_url`.
- - `git remote -v` - shows the url of the github repository to which your local repository is linked.
- - `git push origin <branch_name>` - push your local changes in your current branch into the branch named `branch_name` in your github repository. In the class `branch_name` was `master`.
- - `git pull origin <branch_name>` - get all remote changes from the branch named `branch_name` in the github repository to your local repository. In the class `branch_name` was `master`.
+ - `git branch <branch_name>` - create a new branch `<branch_name>`.
+ - `git checkout <branch_name>` - go to branch `<branch_name>`.
+ - `git branch` - check which local branches you have and where you are (in green).
+ - `git push origin <branch_name>` - push (upload) your local changes in your current branch into the branch named `branch_name` in your github repository.
+
 
 
 ### Extras
 
 Commands we didn't use in class but that might be useful for you:
  
+ - `git pull origin <branch_name>` - pull (download) your changes from your github repository in the branch named `<branch_name>`, into your current local branch. 
  - `git checkout --file <file_name>` - use if you changed the file named `file_name` and want to revert the changes, i.e. to get back the version you had in the last commit 
- - `git checkout <commit>` - use to go to a previous commit. Commit stands for the weird code you see in yellow when you do `git log` (e.g. 7c9025846b37410bb0e35ac7333b3cfa78aca5e7). To go back to your latest commit do `git checkout <branch_name>`, where the branch name is the branch where you are.
- - `git rm --cached <file_name>` - to remove the file from git tracking, but still keep it in the working directory.
+- git 
+
  
+
+  ***Notes***
+  
+  For the sake of consistency (and to avoid mistakes), make sure that when you push you do it to a branch with the same name as the branch where you are, e.g. if you are on a branch named `my_homework` then push to a branch named `my_homework` by typing `git push origin my_homework`.
+  
+  When pulling, if you want to pull from a branch named, for instance `git_homework`, make sure that you are in a branch with the same name (`git_homework`) on your computer as well, and only then do `git pull origin <branch_name>`.
