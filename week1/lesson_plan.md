@@ -54,12 +54,10 @@
 
  14. Branches
      - go trough the homework workflow [have slides showing each step]:
-       - part 1 (show first, small exercise after):
-         - create a branch
-         - do commits
-         - push to github
-       - part 2 (show first, small exercise after):
-         - do pull request
-         - merge with master
-         - update local master
-      - if the time is short, do only one exercise combining both parts at the end (maybe wiser)
+         a) create a branch
+         b) do commits
+         c) push to github
+         d) create pull request
+         e) merge with master
+         f) update local master
+      - do an exercise where the students do parts a) to d)
