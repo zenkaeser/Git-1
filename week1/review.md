@@ -1,25 +1,17 @@
 Tutorial for HackYourFuture Git basics :octocat:. 
-This tutorial has 4 sections:
+This tutorial has 6 sections:
 
 1. Command line interface (bash)
 2. Git
-3. Github
-4. Checkout
+3. Branches
+4. Github
+5. Pull requests
+6. Checkout
 
 
-Also you can watch the class recordings here:
- - [Git class part 1](https://drive.google.com/open?id=1FqDgCosYyTWGHDBXcMYeyh3DjP3CifeG)
- - [Git class part 2](https://drive.google.com/open?id=1eccuqGA88XR3XVy2b1RcosvQ5I_F_Dod)
+Also you can watch the class recordings [here](https://drive.google.com/open?id=1eT5xWxG2GQHLAxMRNp2Bnb4VcSnJpb7s).
 
-
-You can take a look at some old videos I've made here:
- - [Git intro part 1](https://drive.google.com/open?id=1fubN-BDbdAAxcWxyUso7Pi-eLhWNzjdH)
- - [Git intro part 2](https://drive.google.com/open?id=17NMQ9EuS9Fo339noRQ-LBn4qwVRhKzGC)
-
-These videos are a bit old and I might show slighly different things and explain them in different ways.
-
-
-And the slides used in the class can be found [here](https://docs.google.com/presentation/d/1sR3er7alG-LXNadByoiNHlTiwhxrDgzlJaTt_GdTImY/edit?usp=sharing) (check out the speaker notes as well :) ).
+And the slides used in the class can be found [here](https://drive.google.com/open?id=1sR3er7alG-LXNadByoiNHlTiwhxrDgzlJaTt_GdTImY).
 
 
 # 1. Command line (bash)
@@ -39,6 +31,12 @@ Marco has also made a cool video with 10 important commands, which you can see [
 * [ ] Version Control (aka Revision control, source control)
 * [ ] Distributed version control system, Linus Torvalds, 2005
 * [ ] GIT: Global Information Tracker
+
+Bottom line: it is a program used to track changes in your files (in particular code).
+
+If you need, you can read more here:
+ - what is version control: https://www.atlassian.com/git/tutorials/what-is-version-control (5 min)
+ - what is git: https://www.atlassian.com/git/tutorials/what-is-git (6 min)
 
 
 ## 2.2. Configuring Git
@@ -108,29 +106,61 @@ git commit -m "Commit message"
 ```
 
 
-# 3. GitHub:
+# 3 Branches
 
-## 3.1 What is GitHub
+## 3.1 Why Branches ?
+
+To expand.
+Trees need branches to expand.
+Banks needs (office) branches to expand.
+Company needs (code) branches to expand.
+E.g. Branches for Bugs, testing, featuers, production, staging etc.
+
+
+### 3.2 Working with branches
+
+To view a list of all the local branches on your machine, run:
+```
+git branch
+```
+
+To create a new branch run:
+```
+git branch <branch_name>
+```
+
+To move to a branch run:
+```
+git checkout <branch_name>
+```
+
+Always check in which branch you are before creating a new one. 
+For instance, for your homework you should always be in the master branch when you create your homework branch.
+
+
+# 4. GitHub:
+
+## 4.1 What is GitHub
 
 GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere. There are other platforms like Gitlab and Bitbucket.
 
 
-## 3.2 Creating a repository
+## 4.2 Creating a repository
 
-Using your GitHub account, create a repository to which you can add files. 
+Using your GitHub account, you can create a repository to which you can add files. 
 Name the repository `git_example`. Create a public repository and **do not** check the box to create a README file. 
 After you create the repository, the URL of your web page would be something like https://github.com/martamatos/git_example. Replace `martamatos` with your username. If you append `.git` to this URL, you will get the name of your GitHub repository: https://github.com/martamatos/git_example.git
 
 
-## 3.3 Connecting your local repository to the remote repository on Github
+## 4.3 Connecting your local repository to the remote repository on Github
 
 When you have an existing local repository (in your computer) that you want to connect to the repository you just created on Github, you need to run:
 
 ```
-git remote add origin https://github.com/marta_matos/git_example.git
+git remote add origin <link_to_gihub_repository>
 ```
 
-Here you are basically adding the connection to a remote repository named `origin`, where `origin` (in this case) stands for `https://github.com/marta_matos/git_example.git`.
+Here you are basically adding the connection to a remote repository named `origin`, where `origin` stands for the link to the github respository, for instance `https://github.com/marta_matos/git_example.git`.
 To check if your local repository is connected to a remote repository (e.g. on Github) and what is the address of that repository you can always run:
 
 ```
@@ -138,22 +168,27 @@ git remote -v
 ```
 
 
-## 3.4 Pushing changes
+## 4.4 Pushing changes
 
-To send the contents of your local repository to your remote repository (on github), execute
-
-```
-git push origin master
-```
-
-However, this command will fail if there are changes in the remote repository that you do not have on your local machine yet. In that case you first need to get the changes from the remote repository to your local machine. To do so you do:
+To send (upload) the contents of a given branch on your local repository to your remote repository (on github), run
 
 ```
-git pull origin master
+git push origin <branch_name>
+```
+
+However, this command will fail if there are changes in the remote repository that you do not have on your local machine yet. In that case you first need to get (download) the changes from the remote repository to your local machine. To do so you do:
+
+```
+git pull origin <branch_name>
 ```
 
 
-## 3.5 Troubleshooting
+For the sake of consistency (and to avoid mistakes), make sure that when you push you do it to a branch with the same name as the branch where you are, e.g. if you are on a branch named `my_homework` then push to a branch named `my_homework` by typing `git push origin my_homework`.
+
+When pulling, if you want to pull from a branch named, for instance `git_homework`, make sure that you are in a branch with the same name (`git_homework`) on your computer as well, and only then do `git pull origin <branch_name>`.
+
+
+## 4.5 Troubleshooting
 
 You could encounter errors if you do not follow the exact procedure as described above.
 ```
@@ -174,7 +209,7 @@ Solution:
 git pull --allow-unrelated-histories
 ```
 
-## 3.6 Generating the ssh keypair
+## 4.6 Generating the ssh keypair
 
 If you don't want to insert your username and password every time you do `git pull` or `git push`, you can create an ssh keypair.
 
@@ -198,7 +233,44 @@ You will have id\\\_*rsa and id\\\_rsa.pub files in the directory at the followi
  You want to copy the contents of the id\_rsa.pub (open it with a simple text editor or use the command cat in the command line).  After you copy the contents of the id\_rsa.pub file, go to the GitHub account, go to the settings find SSH and GPG keys option and add New SSH key.
 
 
-# 4. Checkout
+# 5. Pull requests
+
+Pull requests make it easier for developers to collaborate. They provide a user-friendly (web) interface for discussing proposed changes before integrating them into the official project.
+In the simplest form, pull requests are a means for a developer to notify a team member that they have completed a feature. But the pull-request is more than just a notification. It's a dedicated forum where teammates can post feedback, push follow-up commits.
+Even though it is named a pull request it is more like a merge request, where you ask for permission to merge a branch into another branch.
+
+
+## What does a pull request contain:
+When you create a pull request, you want another developer to merge your branch into another branch. This means that you need to provide 2 pieces of information to create a pull request:
+* the destination branch
+* the branch to be merged
+
+Pull requests can be used in conjunction with various workflows:
+* [Feature-branch workflow](https://www.atlassian.com/git/tutorials/comparing-workflows/feature-branch-workflow)
+* [Gitflow workflow](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow)
+* [Forking workflow](https://www.atlassian.com/git/tutorials/comparing-workflows/forking-workflow)
+
+
+The workflow you use in your homework is pretty much the Feature-branch workflow, where the central repository is your `hyf-homework` repository, and the feature branch is your homework branch. Also, instead of BitBucket you use Github.
+
+There are a few other differences, for instance:
+- in the section "Start with the master branch", instead of doing:
+    ```
+    git checkout master
+    git fetch origin 
+    git reset --hard origin/master
+    ```
+  to update your master branch, you should just do:
+
+    ```
+    git checkout master
+    git pull origin master
+    ```
+- once the pull request is accepted you just merge it directly on github, no need to use the command line :)
+
+
+
+# 6. Checkout
 
 We didn't talk about this in class, but it's kind of nice to know.
 To move around a repository, to different branches or commits, you can use the `git checkout` command.
