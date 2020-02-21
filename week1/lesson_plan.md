@@ -47,6 +47,7 @@
      - slide 17
      
  13. Do a little exercise where the students:
+     - have them clone their own `hyf-homework` into their computer (this is to get everyone on the same page, otherwise it is a mess)
      - create a folder named `class_playground` under `hyf-homework/Git/week1`
      - add some files
      - commit the changes
