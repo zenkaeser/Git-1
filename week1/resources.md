@@ -8,10 +8,14 @@ Here are a few resources that might be useful:
  - a list of some graphical interfaces for git: https://git-scm.com/downloads/guis;
  - for when things really go wrong: https://ohshitgit.com/ (be careful using this!).
 
- Also a couple of videos recommended by class10 student Lilla Kőrösi:
 
+A couple of videos recommended by class10 student Lilla Kőrösi:
   - [https://youtu.be/BCQHnlnPusY](https://youtu.be/BCQHnlnPusY)
   - [https://youtu.be/oPpnCh7InLY](https://youtu.be/oPpnCh7InLY)
 
- 
- Overall atlassian (the company that makes BitBucket) has really nice tutorials as weel. Check them out [here](https://www.atlassian.com/git/tutorials/what-is-version-control) and explore the stuff in the side bar :).
+
+Benjamin's video about submitting your homework using Pull Requests:
+ - [https://www.youtube.com/watch?v=feyBVDhFQuk](https://www.youtube.com/watch?v=feyBVDhFQuk)
+
+
+And finally, atlassian (the company that makes BitBucket) has really nice tutorials as well. Check them out [here](https://www.atlassian.com/git/tutorials/what-is-version-control) and explore the stuff in the side bar :).
