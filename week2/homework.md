@@ -1,6 +1,6 @@
 # Homework
 
-In this exercise you will get some practice creating branches, merging, pushing to Github, pulling from github, and creating a pull request. Here are the instructions:
+In this exercise you will get some practice creating branches, merging, pushing/pulling to Github, and creating a pull request. Here are the instructions:
 
 1. Start by creating a branch for your homework, named `git/week2`, and move to that branch
 2. Inside the folder `hyf-homework/git/week2` create a new file named `veggies.txt`, inside the file write the name of 5 veggies, one per line. Commit your changes.
@@ -8,7 +8,7 @@ In this exercise you will get some practice creating branches, merging, pushing 
 4. While on `git/week2`, create a branch named `feature/veggies` and move to that branch.
 5. On the file `veggies.txt`, modify the name of the third veggie, and add two more veggies (one per line) at the end. Commit your changes.
 6. On Github, go to branch `git/week2` and modify the name of the third veggie in the file  `veggies.txt`. Commit your changes.
-7. Before pushing the branch `feature/veggies` to github, update it with the latest changes on branch `git/week2` (hint: pull that branch and merge it with `feature/veggies`).
+7. Before pushing the branch `feature/veggies` to github, update it with the latest changes on branch `git/week2` (hint: pull that branch from github and merge it with `feature/veggies`).
 8. Now that `feature/veggies` has been updated, push it to github and create a pull request to `git/week2`.
 9. Wait for feedback, there will be one more task before merging :)
 
