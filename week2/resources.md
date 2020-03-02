@@ -1,7 +1,8 @@
 # Resources 
 
 Here are some links that might be useful:
-
+ 
+ - A style guide for commit messages: https://dev.to/pavlosisaris/git-commits-an-effective-style-guide-2kkn
  - For interactive tutorials, explore this: https://learngitbranching.js.org/
  - About git stash: https://www.atlassian.com/git/tutorials/saving-changes/git-stash
  - About git diff: https://www.atlassian.com/git/tutorials/saving-changes/git-diff
