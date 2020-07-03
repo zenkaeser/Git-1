@@ -53,9 +53,10 @@ We will use the `hyf-homework` repo.
 2. on the folder `hyf-homework/Git/week1/class_playground` create a file named `colors.txt`;
 3. add two colors to the file `colors.txt`, one per line;
 4. add and commit the changes in the `colors.txt` file;
-5. on github, go to the branch `git_exercise_3` and add a color in the first line of the file `colors.txt`, commit your changes;
-6. on your computer, add a color in the last line of the file `colors.txt`, add and commit your changes;
-7. push the branch `git_exercise_3` to github.
+5. push the branch `git_exercise_3` to github.
+6. on github, go to the branch `git_exercise_3` and add a color in the first line of the file `colors.txt`, commit your changes;
+7. on your computer, add a color in the last line of the file `colors.txt`, add and commit your changes;
+8. push the branch `git_exercise_3` to github.
 
 
 
@@ -69,9 +70,10 @@ We will use the `hyf-homework` repo.
 2. on the folder `hyf-homework/Git/week1/class_playground` create a file named `movies.txt`;
 3. add two movie names to the file `movies.txt`, one per line;
 4. add and commit the changes in the `movies.txt` file;
-5. on github, go to the branch `git_exercise_4` and add a movie name in a new line at the end of the file `movies.txt`, commit your changes;
-6. on your computer, add a movie name in a new line at the end of the file `movies.txt`, add and commit your changes;
-7. push the branch `git_exercise_4` to github.
+5. push the branch `git_exercise_4` to github.
+6. on github, go to the branch `git_exercise_4` and add a movie name in a new line at the end of the file `movies.txt`, commit your changes;
+7. on your computer, add a movie name in a new line at the end of the file `movies.txt`, add and commit your changes;
+8. push the branch `git_exercise_4` to github.
 
 
 
