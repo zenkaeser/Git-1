@@ -1,5 +1,6 @@
 Here are a few resources that might be useful:
 
+ - Git and Github in Plain English, super nice to understand the concepts: https://blog.red-badger.com/2016/11/29/gitgithub-in-plain-english
  - a quick overview of git: https://guides.github.com/introduction/git-handbook/;
  - a beginner's tutorial: http://ryanflorence.com/git-for-beginners/;
  - a simple git guide: http://rogerdudler.github.io/git-guide/;
