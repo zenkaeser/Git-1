@@ -40,7 +40,7 @@ We will use the `hyf-homework` repo.
 9. on your computer add some more text to the `my_homework.txt` file;
 10. on your computer, add and commit the changes in the `my_homework.txt` file;
 11. push the branch `git_exercise_2` to github;
-12. on github, check what happened to the pull request you created in step 8.
+12. on github, check what happened to the pull request you created in step 8, and merge the PR
 13. go to the `master` branch
 14. update `master` by "downloading" the new commits from github: `git pull origin master` 
 
