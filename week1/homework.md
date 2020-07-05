@@ -1,14 +1,16 @@
 # Homework
 
-In this exercise you will get some practice submitting your homework by pushing it to Github and then creating a pull request. Here are the instructions:
+In this exercise you will get some practice submitting your homework by pushing it to Github and then creating a pull request. You will use the `hyf-homework` repository on your computer to do the exercise. Here are the instructions:
 
-1. Start by creating a branch for your homework, named `git/week1`, and move to that branch
-2. Inside the folder `hyf-homework/git/week1` create a new file named `my_favorite_food.txt`, inside the file write your favorite food recipe, and commit your changes (you can just find a random recipe on google and paste it in the file ;) ).
-3. Again inside the folder `hyf-homework/git/week1` add a new file named `my_second_favorite_food.txt`, inside the file write the recipe for your second favorite food, and commit your changes.
-4. Inside the folder `hyf-homework/git/week1` create a third file named `countries.txt`, where you list three countries that you have visited (this doesn't need to be true, you can just write the names of three random countries), and commit your changes.
-5. Push your changes into your `hyf-homework` repository on github.
-6. Go to Github and create a pull request from the branch `git/week1` to `master`
-7. Copy the link, post it on slack and tag me, i will then check your homework and ask you to do a few more tasks :)
+1. Go to your `hyf-homework` repo on your computer
+2. Go to branch `master`
+3. Create a branch for your homework, named `git/week1`, and move to that branch
+4. Inside the folder `hyf-homework/git/week1` create a new file named `my_favorite_food.txt`, inside the file write your favorite food recipe, and commit your changes (you can just find a random recipe on google and paste it in the file ;) ).
+5. Again inside the folder `hyf-homework/git/week1` add a new file named `my_second_favorite_food.txt`, inside the file write the recipe for your second favorite food, and commit your changes.
+6. Inside the folder `hyf-homework/git/week1` create a third file named `countries.txt`, where you list three countries that you have visited (this doesn't need to be true, you can just write the names of three random countries), and commit your changes.
+7. Push your changes into your `hyf-homework` repository on github.
+8. Go to Github and create a pull request from the branch `git/week1` to `master`
+9. Copy the link, post it on slack and tag your mentors, we will then check your homework and ask you to do a few more tasks :)
 
 
 Commands that you will need: 
@@ -28,9 +30,9 @@ Commands that you will need:
 Other useful git commands:
  - `git status` - remember, it is your best friend, it tells you what is the state of your repository and sometimes what you should do.
  - `git branch` - this is your second best friend, it tells you in which branch you are (you can also see where you are when you do `git status`)
-  - `git log`
-  - `git log --oneline`
-  - `git pull origin <branch_name>` - pull (download) your changes from your github repository in the branch named `<branch_name>`, into your current local branch. 
+ - `git log`
+ - `git log --oneline`
+ - `git pull origin <branch_name>` - pull (download) your changes from your github repository in the branch named `<branch_name>`, into your current local branch. 
 
 Command line commands that might be useful:
  - `pwd`- print working directory, to know where you are 
