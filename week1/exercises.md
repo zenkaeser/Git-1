@@ -15,7 +15,7 @@ We will use the `hyf-homework` repo and the branch `master`.
 3· create the following files inside the `class_playground` folder: `apples_file.txt`, `bananas_file.txt`, `oranges_file.txt`;
 4. add some text to each of the files;
 5. add and commit the `apples_file.txt`;
-6. add and commit both the `oranges_file.txt` and the `apples_file.txt`;
+6. add and commit both the `oranges_file.txt` and the `bananas_file.txt`;
 7. add more text to the `apples_file.txt`;
 8. add and commit the changes in the `apples_file.txt`;
 7. push your changes to Github.
@@ -29,17 +29,20 @@ It will basically follow the second part of the class videos.
 
 We will use the `hyf-homework` repo.
 
- 1. create a branch named `git_exercise_2`;
- 2. create a file named `my_homework.txt` inside `hyf-homework/Git/week1/class_playground`;
- 3. add some text to the `my_homework.txt` file;
- 4. add and commit the changes in the `my_homework.txt` file;
- 5. add more text to the `my_homework.txt` file;
- 6. add and commit the changes in the `my_homework.txt` file;
- 7. push the branch `git_exercise_2` to github;
- 8. on github, create a pull request from `git_exercise_2` to `master`;
- 9. on your computer, add and commit the changes in the `my_homework.txt` file;
- 10. push the branch `git_exercise_2` to github;
- 11. on github, check what happened to the pull request you created in step 8.
+1. when you are on `master` branch, create a branch named `git_exercise_2`;
+2. create a file named `my_homework.txt` inside `hyf-homework/Git/week1/class_playground`;
+3. add some text to the `my_homework.txt` file;
+4. add and commit the changes in the `my_homework.txt` file;
+5. add more text to the `my_homework.txt` file;
+6. add and commit the changes in the `my_homework.txt` file;
+7. push the branch `git_exercise_2` to github;
+8. on github, create a pull request from `git_exercise_2` to `master`;
+9. on your computer add some more text to the `my_homework.txt` file;
+10. on your computer, add and commit the changes in the `my_homework.txt` file;
+11. push the branch `git_exercise_2` to github;
+12. on github, check what happened to the pull request you created in step 8.
+13. go to the `master` branch
+14. update `master` by "downloading" the new commits from github: `git pull origin master` 
 
 
 
@@ -49,14 +52,15 @@ In this exercise you will get an error when pushing to github and you will have 
 
 We will use the `hyf-homework` repo.
 
-1. on your `hyf-homework` repo create a branch named `git_exercise_3`;
-2. on the folder `hyf-homework/Git/week1/class_playground` create a file named `colors.txt`;
-3. add two colors to the file `colors.txt`, one per line;
-4. add and commit the changes in the `colors.txt` file;
-5. push the branch `git_exercise_3` to github.
-6. on github, go to the branch `git_exercise_3` and add a color in the first line of the file `colors.txt`, commit your changes;
-7. on your computer, add a color in the last line of the file `colors.txt`, add and commit your changes;
-8. push the branch `git_exercise_3` to github.
+1. on your `hyf-homework` repo go to the branch `master`
+2. create a branch named `git_exercise_3`;
+3. on the folder `hyf-homework/Git/week1/class_playground` create a file named `colors.txt`;
+4. add two colors to the file `colors.txt`, one per line;
+5. add and commit the changes in the `colors.txt` file;
+6. push the branch `git_exercise_3` to github.
+7. on github, go to the branch `git_exercise_3` and add a color in the first line of the file `colors.txt`, commit your changes;
+8. on your computer, add a color in the last line of the file `colors.txt`, add and commit your changes;
+9. push the branch `git_exercise_3` to github.
 
 
 
@@ -66,14 +70,15 @@ In this exercise you will get a merge conflict and you will have to solve it.
 
 We will use the `hyf-homework` repo.
 
-1. on your `hyf-homework` repo create a branch named `git_exercise_4`;
-2. on the folder `hyf-homework/Git/week1/class_playground` create a file named `movies.txt`;
-3. add two movie names to the file `movies.txt`, one per line;
-4. add and commit the changes in the `movies.txt` file;
-5. push the branch `git_exercise_4` to github.
-6. on github, go to the branch `git_exercise_4` and add a movie name in a new line at the end of the file `movies.txt`, commit your changes;
-7. on your computer, add a movie name in a new line at the end of the file `movies.txt`, add and commit your changes;
-8. push the branch `git_exercise_4` to github.
+1. on your `hyf-homework` repo go to the branch `master`
+2. create a branch named `git_exercise_4`;
+3. on the folder `hyf-homework/Git/week1/class_playground` create a file named `movies.txt`;
+4. add two movie names to the file `movies.txt`, one per line;
+5. add and commit the changes in the `movies.txt` file;
+6. push the branch `git_exercise_4` to github.
+7. on github, go to the branch `git_exercise_4` and add a movie name in a new line at the end of the file `movies.txt`, commit your changes;
+8. on your computer, add a movie name in a new line at the end of the file `movies.txt`, add and commit your changes;
+9. push the branch `git_exercise_4` to github.
 
 
 
